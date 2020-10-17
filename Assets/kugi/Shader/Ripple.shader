@@ -7,7 +7,7 @@
         _Scale ("Scale", Range(0, 10)) = 0
         _Speed ("Speed", Range(0, 5)) = 1.0
         _Frequency ("Frequency", Range(0, 10)) = 0
-        _Radius ("Radius", Range(0, 0.5)) = 0.5
+        _Radius ("Radius", Float) = 0.5
     }
     
     SubShader

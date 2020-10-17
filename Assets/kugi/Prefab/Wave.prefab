@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1435002097963013312}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.0217, y: 0, z: -0.05}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.012350154, y: 0.012350154, z: 0.012350154}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -107,7 +107,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a615e8290c1b841e2ade5ad00940d0f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _renderer: {fileID: 0}
-  waveSponeDelay: 0.86
   waveDestroySpeed: 0.3
-  waveOffset: {x: 0, y: -2, z: 0.75}

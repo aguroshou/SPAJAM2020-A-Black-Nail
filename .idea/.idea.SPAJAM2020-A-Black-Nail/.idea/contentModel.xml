@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Aguro" t="Include">
           <e p="Scripts" t="Include">
+            <e p="ChaseDuckDestination.cs" t="Include" />
             <e p="DuckManager.cs" t="Include" />
             <e p="LoadMenuSceneButton.cs" t="Include" />
             <e p="PlaceWaterPosition.cs" t="Include" />

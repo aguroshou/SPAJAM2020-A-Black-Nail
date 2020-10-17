@@ -15,6 +15,11 @@ public class PlaceWaterPosition : MonoBehaviour
 
     private bool isWaterPlaced = false;
 
+    public void ChangeWaterPlanePosition()
+    {
+        isWaterPlaced = false;
+    }
+    
     void Start()
     {
     }
@@ -31,7 +36,7 @@ public class PlaceWaterPosition : MonoBehaviour
         // タップした場所に生成
         if (Input.touchCount > 0)
         {
-            isWaterPlaced = !isWaterPlaced;
+            isWaterPlaced = true;
             
             // if (arRaycastManager.Raycast(Input.GetTouch(0).position, hits, TrackableType.PlaneWithinPolygon))
             // {

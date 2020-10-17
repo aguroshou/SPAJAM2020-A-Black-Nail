@@ -60,6 +60,9 @@ EditorBuildSettings:
     path: Assets/Scenes/UX/SampleUXScene.unity
     guid: 3b42d67a72bbc4004bf713db0e312326
   - enabled: 1
+    path: Assets/kugi/Scenes/Title.unity
+    guid: 09aa7e0426ead4eea8c8416bf2a061ce
+  - enabled: 1
     path: Assets/Aguro/Scenes/AguroEditScene.unity
     guid: 9d6e928f8e2664f3f866183e5986b510
   m_configObjects:

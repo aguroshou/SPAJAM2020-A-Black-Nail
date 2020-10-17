@@ -107,4 +107,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a615e8290c1b841e2ade5ad00940d0f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveDestroySpeed: 0.3
+  waveDestroySpeed: 0.2

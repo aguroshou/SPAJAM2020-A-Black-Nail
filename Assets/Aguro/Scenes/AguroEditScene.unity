@@ -216,13 +216,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282840810}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: -0.46, z: 3.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1335839535}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &282840815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2367,16 +2367,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1227143590}
     m_Modifications:
-    - target: {fileID: 1923999834, guid: 3f8a1dfd4307049cc8887f248d1092c8, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 662408206158576973, guid: 3f8a1dfd4307049cc8887f248d1092c8,
         type: 3}
-      propertyPath: _wave
-      value: 
-      objectReference: {fileID: 1435002097963013312, guid: 29755b8dd411044c1b7f60d7da00c684,
-        type: 3}
+      propertyPath: waveOffset.y
+      value: -0.022
+      objectReference: {fileID: 0}
     - target: {fileID: 5165198773851196784, guid: 3f8a1dfd4307049cc8887f248d1092c8,
         type: 3}
       propertyPath: m_Name

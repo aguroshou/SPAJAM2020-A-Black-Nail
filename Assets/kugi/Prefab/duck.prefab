@@ -95,5 +95,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  _wave: {fileID: 0}
-  waveOffset: {x: 0, y: -2, z: 0.75}
+  _wave: {fileID: 1435002097963013312, guid: 29755b8dd411044c1b7f60d7da00c684, type: 3}
+  waveOffset: {x: 0, y: -0.0249, z: -0.0086}

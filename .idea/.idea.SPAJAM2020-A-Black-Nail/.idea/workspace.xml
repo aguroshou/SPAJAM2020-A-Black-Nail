@@ -32,11 +32,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2f61020d-526e-47de-961e-00a1cce0b10e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SPAJAM2020-A-Black-Nail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPAJAM2020-A-Black-Nail/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Fonts/NotoSansCJKjp-Medium SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Fonts/NotoSansCJKjp-Medium SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Prefabs/Item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Prefabs/Item.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Aguro/Scenes/AguroEditScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Scenes/AguroEditScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Scripts/DuckManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Scripts/DuckManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Scripts/FallItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Scripts/FallItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Aguro/Scripts/ItemManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Scripts/ItemManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/kugi/Meshes/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/kugi/Meshes/Materials/Scene_Material1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/kugi/Meshes/Materials/Scene_Material1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,10 +62,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/PlaceWaterPosition.cs" />
-        <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/FallItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/ChaseDuckDestination.cs" />
         <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/GameSystemManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/DuckManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/FallItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/ItemManager.cs" />
       </list>
     </option>
@@ -113,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602908516341</updated>
       <workItem from="1602908528989" duration="12036000" />
-      <workItem from="1602944558122" duration="643000" />
+      <workItem from="1602944558122" duration="3493000" />
     </task>
     <servers />
   </component>

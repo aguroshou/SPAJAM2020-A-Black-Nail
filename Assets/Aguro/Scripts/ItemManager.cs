@@ -26,7 +26,9 @@ public class ItemManager : MonoBehaviour
             Vector3 prefabPosition = transform.position;
             prefabPosition.x += Random.Range(-0.13f, 0.13f);
             prefabPosition.z += Random.Range(-0.13f, 0.13f);
-            GameObject item = Instantiate(itemPrefab, prefabPosition, Quaternion.identity);
+            
+            GameObject item = Instantiate(itemPrefab, prefabPosition, Quaternion.Euler(0, 0, 0));
+            //GameObject item = Instantiate(itemPrefab, prefabPosition, Quaternion.Euler(90, Random.Range(0,360), 0));
             item.transform.SetParent(transform);
         }
     }

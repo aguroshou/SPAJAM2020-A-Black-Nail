@@ -9,7 +9,7 @@
     
     CGINCLUDE
     #include "UnityCG.cginc"
-
+    
     float4 _Color;
     float _Scale;
     
@@ -25,6 +25,7 @@
     
     SubShader
     {
+        Tags {"Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent"}
         Blend SrcAlpha OneMinusSrcAlpha
         Pass
         {

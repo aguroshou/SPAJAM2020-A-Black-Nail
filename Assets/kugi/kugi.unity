@@ -296,6 +296,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 30.926, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1161473910
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,6 +491,8 @@ Transform:
   m_Father: {fileID: 1846115366}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &5665282221516107836
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -555,21 +558,6 @@ PrefabInstance:
     - target: {fileID: 5541019941712385994, guid: 3f8a1dfd4307049cc8887f248d1092c8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6678421099413286053, guid: 3f8a1dfd4307049cc8887f248d1092c8,
-        type: 3}
-      propertyPath: m_DynamicOccludee
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6678421099413286053, guid: 3f8a1dfd4307049cc8887f248d1092c8,
-        type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6678421099413286053, guid: 3f8a1dfd4307049cc8887f248d1092c8,
-        type: 3}
-      propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

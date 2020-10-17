@@ -31,11 +31,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f61020d-526e-47de-961e-00a1cce0b10e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SPAJAM2020-A-Black-Nail/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPAJAM2020-A-Black-Nail/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SPAJAM2020-A-Black-Nail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPAJAM2020-A-Black-Nail/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Aguro/Scenes/AguroEditScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Scenes/AguroEditScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Scripts/DuckManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Scripts/DuckManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Scripts/PlaceWaterPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Scripts/PlaceWaterPosition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Scripts/ChaseDuckDestination.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Scripts/ChaseDuckDestination.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/kugi/Prefab/duck.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/kugi/Prefab/duck.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/kugi/Shader/Outline.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/kugi/Shader/Outline.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/kugi/kugi.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/kugi/kugi.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +48,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Aguro/Scripts/ChaseDuck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Aguro/Scripts/ChaseDuckDestination.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Aguro/Scripts/DuckManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Aguro/Scripts/FallItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Aguro/Scripts/GameSystemManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Aguro/Scripts/ItemManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/DuckManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/PlaceWaterPosition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/FallItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/ChaseDuckDestination.cs" />
+        <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/ItemManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/GameSystemManager.cs" />
       </list>
     </option>
   </component>
@@ -102,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602908516341</updated>
-      <workItem from="1602908528989" duration="6643000" />
+      <workItem from="1602908528989" duration="11531000" />
     </task>
     <servers />
   </component>

@@ -29,10 +29,18 @@ public class DuckManager : MonoBehaviour
             var mousePosition = Input.mousePosition;
             touchPosition = new Vector2(mousePosition.x, mousePosition.y);
         }
+        else
+        {
+            return;
+        }
 #else
         if (Input.touchCount > 0)
         {
             touchPosition = Input.GetTouch(0).position;
+        }
+        else
+        {
+            return;
         }
 #endif
         //cursorPosition = Input.mousePosition; // 画面上のカーソルの位置

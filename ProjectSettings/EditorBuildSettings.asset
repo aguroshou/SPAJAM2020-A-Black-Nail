@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Aguro/Scenes/SceneSelectMenu.unity
     guid: c1089b6c5cb5b0742be92732f5bdc172
-  - enabled: 1
+  - enabled: 0
     path: Assets/Aguro/Scenes/AguroEditSimpleAR.unity
     guid: d50455076a45c4065be0e2f7dd68d555
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ARWorldMap.unity
     guid: 8d8902fd0b55449dcbf3572b49d6b1b1
   - enabled: 0

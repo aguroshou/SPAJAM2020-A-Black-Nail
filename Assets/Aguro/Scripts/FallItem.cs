@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class FallItem : MonoBehaviour
@@ -10,6 +11,9 @@ public class FallItem : MonoBehaviour
     void Start()
     {
         waterPlane = GameObject.Find("WaterPlane");
+        transform.DORotate(new Vector3(0, 360f, 0), 6f, RotateMode.FastBeyond360)
+            .SetEase(Ease.Linear)
+            .SetLoops(-1, LoopType.Restart);
     }
 
     // Update is called once per frame

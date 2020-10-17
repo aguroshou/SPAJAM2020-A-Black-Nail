@@ -68,7 +68,11 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+<<<<<<< HEAD:Assets/kugi/Shader/Outline.mat
+    - _Scale: 0.084
+=======
     - _Scale: 0.203
+>>>>>>> 4aceb1aeae10d260a0e15d0bc7fc96fed4c823fb:Assets/kugi/Material/Outline.mat
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

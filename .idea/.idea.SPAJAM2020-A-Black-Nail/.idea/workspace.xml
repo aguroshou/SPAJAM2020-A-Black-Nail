@@ -32,9 +32,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2f61020d-526e-47de-961e-00a1cce0b10e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SPAJAM2020-A-Black-Nail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPAJAM2020-A-Black-Nail/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Scenes/AguroEditScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Scenes/AguroEditScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Aguro/Scripts/ChaseDuckDestination.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Scripts/ChaseDuckDestination.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Scripts/DuckManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Scripts/DuckManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Scripts/GameSystemManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Scripts/GameSystemManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <updated>1602908516341</updated>
       <workItem from="1602908528989" duration="12036000" />
       <workItem from="1602944558122" duration="4052000" />
-      <workItem from="1602980322586" duration="1743000" />
+      <workItem from="1602980322586" duration="2062000" />
     </task>
     <servers />
   </component>

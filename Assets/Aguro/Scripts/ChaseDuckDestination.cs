@@ -9,10 +9,12 @@ public class ChaseDuckDestination : MonoBehaviour
     public float speed = 0.1f; //移動スピード
     private Vector3 vec;
     private int previewItemCount;
-
+    public AudioClip soundEffectGetItem;
+    AudioSource audioSourceGetItem;
+    
     void Start()
     {
-        //target = GameObject.Find("対象").transform; インスペクタから登録するのでいらない
+        audioSourceGetItem = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -41,6 +43,7 @@ public class ChaseDuckDestination : MonoBehaviour
     {
         if (hit.CompareTag("Item"))
         {
+            audioSourceGetItem.PlayOneShot(soundEffectGetItem);
             GameSystemManager.itemCount++;
             PlayerPrefs.SetInt("ItemCount", GameSystemManager.itemCount);
             Destroy(hit.gameObject);

@@ -8,6 +8,7 @@ public class ChaseDuckDestination : MonoBehaviour
     public Transform target; //追いかける対象-オブジェクトをインスペクタから登録できるように
     public float speed = 0.1f; //移動スピード
     private Vector3 vec;
+    private int previewItemCount;
 
     void Start()
     {
@@ -24,10 +25,18 @@ public class ChaseDuckDestination : MonoBehaviour
         if (distance > 0.01f)
         {
             //targetに向かって進む
-            transform.position += transform.forward * speed * (float)Time.deltaTime;
+            transform.position += transform.forward * speed * (float) Time.deltaTime;
+        }
+
+        if (GameSystemManager.itemCount != previewItemCount)
+        {
+            previewItemCount = GameSystemManager.itemCount;
+            float duckSize = 0.33333f * (1 + 0.05f * GameSystemManager.itemCount);
+            duckSize = System.Math.Min(duckSize, 2f);
+            transform.localScale = new Vector3(duckSize,duckSize,duckSize);
         }
     }
-    
+
     void OnTriggerEnter(Collider hit)
     {
         if (hit.CompareTag("Item"))

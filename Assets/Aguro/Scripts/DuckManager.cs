@@ -48,7 +48,7 @@ public class DuckManager : MonoBehaviour
         cursorPosition.y = touchPosition.y;
         cursorPosition.z = 10.0f; // z座標に適当な値を入れる
         cursorPosition3d = Camera.main.ScreenToWorldPoint(cursorPosition); // 3Dの座標になおす
- 
+        
         // カメラから cursorPosition3d の方向へレイを飛ばす
         if (Physics.Raycast(Camera.main.transform.position, (cursorPosition3d - Camera.main.transform.position), out hit, Mathf.Infinity))
         {

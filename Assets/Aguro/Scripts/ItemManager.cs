@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class ItemManager : MonoBehaviour
 {
-    [SerializeField] private GameObject itemPrefab;
+    private GameObject itemPrefab;
+    [SerializeField] private GameObject momiziPrefab;
+    [SerializeField] private GameObject frostPrefab;
+    [SerializeField] private GameObject ukiwaPrefab;
+    [SerializeField] private GameObject flowerPrefab;
     public float timeOut = 5.0f;
     private float timeElapsed;
 
@@ -32,4 +36,23 @@ public class ItemManager : MonoBehaviour
             item.transform.SetParent(transform);
         }
     }
+
+    public void ChangeMomizi()
+    {
+        itemPrefab = momiziPrefab;
+    }
+    public void ChangeFrost()
+    {
+        itemPrefab = frostPrefab;
+    }
+    public void ChangeUkiwa()
+    {
+        itemPrefab = ukiwaPrefab;
+    }
+    public void ChangeFlower()
+    {
+        itemPrefab = flowerPrefab;
+    }
+    
+    
 }

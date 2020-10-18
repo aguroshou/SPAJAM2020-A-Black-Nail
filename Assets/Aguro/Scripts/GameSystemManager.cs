@@ -20,4 +20,10 @@ public class GameSystemManager : MonoBehaviour
     {
         itemCountText.text = "アイテムの数：" + itemCount;
     }
+
+    public void ResetItemCount()
+    {
+        PlayerPrefs.SetInt("ItemCount", 0);
+        itemCount = 0;
+    }
 }
